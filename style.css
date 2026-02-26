@@ -1,0 +1,66 @@
+/* Page */
+body{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f6f8;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* Center container */
+.container{
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+/* Card sections */
+.section{
+  background: white;
+  padding: 24px;
+  margin: 18px 0;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+/* Typography */
+h1{
+  font-size: 48px;
+  margin: 0 0 8px 0;
+  letter-spacing: -0.5px;
+}
+p{
+  margin: 10px 0;
+}
+h2{
+  margin: 0 0 12px 0;
+}
+
+/* Links */
+a{
+  display: inline-block;
+  margin-top: 6px;
+  color: #1a73e8;
+  text-decoration: none;
+  font-weight: 700;
+}
+a:hover{
+  text-decoration: underline;
+}
+
+/* List */
+ul{
+  margin: 10px 0 0 20px;
+}
+
+/* Image */
+img{
+  width: 320px;
+  max-width: 100%;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  transition: transform 0.2s ease;
+}
+img:hover{
+  transform: scale(1.03);
+}
